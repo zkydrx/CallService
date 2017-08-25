@@ -1,0 +1,8 @@
+1、将libs里面的jar包添加到项目的构建路径中
+2、调用方式如下：
+Map<String, String> map = new HashMap<String, String>();
+map.put("openid", openID);
+map.put("carName", "");
+
+url += "/Home/GetCarStatistics";
+String res = HttpClient.MethodPostResponse(url, map);
