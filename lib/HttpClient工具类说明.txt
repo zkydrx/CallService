@@ -1,5 +1,5 @@
-1、将libs里面的jar包添加到项目的构建路径中
-2、调用方式如下：
+1銆佸皢libs閲岄潰鐨刯ar鍖呮坊鍔犲埌椤圭洰鐨勬瀯寤鸿矾寰勪腑
+2銆佽皟鐢ㄦ柟寮忓涓嬶細
 Map<String, String> map = new HashMap<String, String>();
 map.put("openid", openID);
 map.put("carName", "");
